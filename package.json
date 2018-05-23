@@ -1,0 +1,30 @@
+{
+  "name": "fithack",
+  "version": "1.0.0",
+  "description": "nutrition application",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanmhale/FoodFacts.git"
+  },
+  "author": "ivanmhale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanmhale/FoodFacts/issues"
+  },
+  "homepage": "https://github.com/ivanmhale/FoodFacts#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "nodemon": "^1.17.4"
+  }
+}
