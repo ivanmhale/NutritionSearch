@@ -1,5 +1,13 @@
-const keys = require("../keys");
 const request = require("request");
+
+if (process.env.NODE_ENV === "production") {
+  const keys = {
+    appId: process.env.appId,
+    appKey: process.env.appKey
+  };
+} else {
+  const keys = require("../keys");
+}
 
 module.exports = app => {
   app.get("/search/:term", (req, res) => {
@@ -16,11 +24,13 @@ module.exports = app => {
 
   app.get("/lookup/:id", (req, res) => {
     const id = req.params.id;
-    request(`https://api.nutritionix.com/v1_1/item?id=${id}&appId=${keys.appId}&appKey=${keys.appKey}`,
+    request(
+      `https://api.nutritionix.com/v1_1/item?id=${id}&appId=${
+        keys.appId
+      }&appKey=${keys.appKey}`,
       (err, response, body) => {
         res.send(body);
       }
     );
   });
-
 };
