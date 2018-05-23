@@ -1,0 +1,286 @@
+{
+  "total_hits": 153227,
+  "max_score": 1.9520413,
+  "hits": [
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "513fc9e73fe3ffd4030010cf",
+      "_score": 1.9520413,
+      "fields": {
+        "item_id": "513fc9e73fe3ffd4030010cf",
+        "item_name": "Filet-O-Fish",
+        "brand_name": "McDonald's",
+        "nf_calories": 410,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "c64083490809f9601ccb5170",
+      "_score": 1.7395794,
+      "fields": {
+        "item_id": "c64083490809f9601ccb5170",
+        "item_name": "Double Filet-O- Fish",
+        "brand_name": "McDonald's",
+        "nf_calories": 540,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "c640834930748c28cd6001d7",
+      "_score": 1.5000207,
+      "fields": {
+        "item_id": "c640834930748c28cd6001d7",
+        "item_name": "Old Bay Filet-O- Fish Sandwich",
+        "brand_name": "McDonald's",
+        "nf_calories": 390,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "558f57b414a5692243adeb02",
+      "_score": 1.3487067,
+      "fields": {
+        "item_id": "558f57b414a5692243adeb02",
+        "item_name": "Dried File Fish",
+        "brand_name": "Wha Soo Boon",
+        "nf_calories": 100,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "c64083490459560c0c4ce928",
+      "_score": 1.2820925,
+      "fields": {
+        "item_id": "c64083490459560c0c4ce928",
+        "item_name": "Old Bay Double Filet-O-Fish Sandwich",
+        "brand_name": "McDonald's",
+        "nf_calories": 540,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51c3b6a497c3e6d8d3b4443d",
+      "_score": 1.1849141,
+      "fields": {
+        "item_id": "51c3b6a497c3e6d8d3b4443d",
+        "item_name": "Water, Unsweetened, Lemon & Lime",
+        "brand_name": "O",
+        "nf_calories": 0,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51d37a11cc9bff5553aa9d42",
+      "_score": 1.1849141,
+      "fields": {
+        "item_id": "51d37a11cc9bff5553aa9d42",
+        "item_name": "Water, Infused, Strawberry",
+        "brand_name": "O",
+        "nf_calories": 25,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5407297c6dab6ba257b127ca",
+      "_score": 1.1849141,
+      "fields": {
+        "item_id": "5407297c6dab6ba257b127ca",
+        "item_name": "Oak Aged California Balsamic Vinegar",
+        "brand_name": "O",
+        "nf_calories": 10,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "552413c649a172d827c65d9d",
+      "_score": 1.1849141,
+      "fields": {
+        "item_id": "552413c649a172d827c65d9d",
+        "item_name": "Organic Olive Oil, Extra Virgin",
+        "brand_name": "O",
+        "nf_calories": 120,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51c3b6a297c3e6d8d3b44432",
+      "_score": 1.1789753,
+      "fields": {
+        "item_id": "51c3b6a297c3e6d8d3b44432",
+        "item_name": "Water, Unsweetened, Twist of Mango Orange",
+        "brand_name": "O",
+        "nf_calories": 0,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51d376a7cc9bff5553aa9523",
+      "_score": 1.1789753,
+      "fields": {
+        "item_id": "51d376a7cc9bff5553aa9523",
+        "item_name": "Citrus Champagne Vinegar",
+        "brand_name": "O",
+        "nf_calories": 5,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "540729781701ffb9576b74b7",
+      "_score": 1.1789753,
+      "fields": {
+        "item_id": "540729781701ffb9576b74b7",
+        "item_name": "Olive Oil",
+        "brand_name": "O",
+        "nf_calories": 120,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "5407297e6dab6ba257b127cc",
+      "_score": 1.1789753,
+      "fields": {
+        "item_id": "5407297e6dab6ba257b127cc",
+        "item_name": "Pomegranate Champagne Vinegar",
+        "brand_name": "O",
+        "nf_calories": 5,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51c3b6a297c3e6d8d3b44430",
+      "_score": 1.1330109,
+      "fields": {
+        "item_id": "51c3b6a297c3e6d8d3b44430",
+        "item_name": "Water, Electrolyte Enhanced",
+        "brand_name": "O",
+        "nf_calories": 0,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51c3b6a497c3e6d8d3b44442",
+      "_score": 1.1330109,
+      "fields": {
+        "item_id": "51c3b6a497c3e6d8d3b44442",
+        "item_name": "Water, Purified Ultra Premium",
+        "brand_name": "O",
+        "nf_calories": 0,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51c3c50597c3e6d8d3b4b31c",
+      "_score": 1.1330109,
+      "fields": {
+        "item_id": "51c3c50597c3e6d8d3b4b31c",
+        "item_name": "Citrus Champagne Vinegar",
+        "brand_name": "O",
+        "nf_calories": 5,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51c3eba297c3e6de73cba501",
+      "_score": 1.1330109,
+      "fields": {
+        "item_id": "51c3eba297c3e6de73cba501",
+        "item_name": "Water, Infused, Orange",
+        "brand_name": "O",
+        "nf_calories": 30,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51d37a10cc9bff5553aa9d3f",
+      "_score": 1.1330109,
+      "fields": {
+        "item_id": "51d37a10cc9bff5553aa9d3f",
+        "item_name": "Water, Infused, Lemon Lime",
+        "brand_name": "O",
+        "nf_calories": 25,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "558341af76a0c1c97428143f",
+      "_score": 1.1330109,
+      "fields": {
+        "item_id": "558341af76a0c1c97428143f",
+        "item_name": "Pepperoni, Cheese & Crostini",
+        "brand_name": "O",
+        "nf_calories": 590,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    },
+    {
+      "_index": "f762ef22-e660-434f-9071-a10ea6691c27",
+      "_type": "item",
+      "_id": "51c3b6a497c3e6d8d3b44443",
+      "_score": 1.1178275,
+      "fields": {
+        "item_id": "51c3b6a497c3e6d8d3b44443",
+        "item_name": "Water, Ultra Premium, Peach",
+        "brand_name": "O",
+        "nf_calories": 0,
+        "nf_serving_size_qty": 1,
+        "nf_serving_size_unit": "serving"
+      }
+    }
+  ]
+}

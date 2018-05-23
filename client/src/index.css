@@ -1,0 +1,56 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  background-image: linear-gradient(135deg, white, green);
+  height: 100%;
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body {
+  width: 90vw;
+  background-color: #fff; }
+
+.header {
+  background-color: #303030;
+  height: 4rem;
+  color: #fff;
+  position: relative; }
+  .header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.search-attr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.search .searchbar {
+  font-size: 1rem;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none; }
+
+.results table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%; }
+
+.results td,
+.results th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px; }
+
+.results tr:nth-child(even) {
+  background-color: #dddddd; }

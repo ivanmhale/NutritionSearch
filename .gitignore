@@ -12,9 +12,6 @@
 #private
 /keys
 
-#client
-/client
-
 # misc
 .DS_Store
 .env.local

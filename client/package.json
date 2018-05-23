@@ -1,0 +1,23 @@
+{
+  "name": "fithack",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "rapidapi-connect": "0.0.6",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "watch:sass": "node-sass src/sass.scss src/index.css -w",
+    "start": "concurrently \"react-scripts start\" \"npm run watch:sass\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1",
+    "node-sass": "^4.9.0"
+  }
+}
