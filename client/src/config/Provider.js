@@ -4,7 +4,8 @@ import seed from "./seed.json";
 
 export default class ResultsProvider extends Component {
   state = {
-    results: seed
+    results: seed,
+    selected: null,
   };
   render() {
     return (
@@ -14,7 +15,14 @@ export default class ResultsProvider extends Component {
           search: (term) =>
             fetch(`/search/${term}`)
               .then(res => res.json())
-              .then(parsed => this.setState({ results: parsed }))
+              .then(parsed => this.setState({ results: parsed })),
+          select: id =>
+          fetch(`lookup/${id}`)
+          .then(res => res.json())
+          .then(parsed =>
+            console.log(parsed)
+          //  this.setState({ selected: parsed})
+          )
         }}
       >
         {this.props.children}

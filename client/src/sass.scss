@@ -13,7 +13,7 @@ html {
   font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
 }
 
 body {
@@ -33,7 +33,7 @@ body {
     transform: translate(-50%, -50%);
   }
 }
-.search-attr{
+.search-attr {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -46,6 +46,17 @@ body {
     border-bottom: 1px solid black;
     outline: none;
   }
+  button{
+    outline: none;
+    padding: .3rem;
+    margin-left: 1rem;
+    background-color: white;
+    transition-duration: .2s;
+    &:hover{
+      background-color: #303030;
+      color: white;
+    }
+  }
 }
 
 .results {
@@ -53,6 +64,11 @@ body {
     font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
+
+    tr:hover {
+      cursor: pointer;
+      background-color: yellow
+    }
   }
 
   td,

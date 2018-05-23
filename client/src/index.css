@@ -41,10 +41,23 @@ body {
   border-bottom: 1px solid black;
   outline: none; }
 
+.search button {
+  outline: none;
+  padding: .3rem;
+  margin-left: 1rem;
+  background-color: white;
+  transition-duration: .2s; }
+  .search button:hover {
+    background-color: #303030;
+    color: white; }
+
 .results table {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%; }
+  .results table tr:hover {
+    cursor: pointer;
+    background-color: yellow; }
 
 .results td,
 .results th {

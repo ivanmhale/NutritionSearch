@@ -9,7 +9,6 @@ class App extends Component {
     term: ""
   };
   render() {
-    console.log(this.state.term);
     return (
       <ResultsProvider>
         <div className="app">
