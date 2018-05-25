@@ -5,7 +5,8 @@ import seed from "./seed.json";
 export default class ResultsProvider extends Component {
   state = {
     results: seed,
-    selected: null
+    selected: null,
+    list: "ASD"
   };
   render() {
     return (
@@ -13,6 +14,7 @@ export default class ResultsProvider extends Component {
         value={{
           results: this.state.results,
           selected: this.state.selected,
+          list: this.state.list,
           search: term =>
             fetch(`/search/${term}`)
               .then(res => res.json())
@@ -26,7 +28,6 @@ export default class ResultsProvider extends Component {
           }
         }}
       >
-        {console.log(this.state.selected)}
         {this.props.children}
       </ResultsContext.Provider>
     );

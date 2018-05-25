@@ -2,6 +2,7 @@ import React from "react";
 import ResultsContext from "../config/Context";
 
 const Modal = () => {
+
   return (
     <ResultsContext.Consumer>
       {context => {
@@ -15,7 +16,7 @@ const Modal = () => {
           }
         });
         return (
-          <div className="modal">
+          <div id="modal" className="modal">
             <div className="content">
               <span
                 onClick={() => {

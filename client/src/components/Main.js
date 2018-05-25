@@ -19,10 +19,12 @@ export default class Main extends Component {
           <div className="search">
             <ResultsContext.Consumer>
               {context => (
-                <form onSubmit={(e) => {
-                  e.preventDefault();
-                  context.search(this.state.term)
-                }}>
+                <form
+                  onSubmit={e => {
+                    e.preventDefault();
+                    context.search(this.state.term);
+                  }}
+                >
                   <input
                     className="searchbar"
                     type="text"
@@ -35,10 +37,12 @@ export default class Main extends Component {
                     }
                   />
 
-                  <button onClick={(e) => {
-                    e.preventDefault();
-                    context.search(this.state.term)
-                  }}>
+                  <button
+                    onClick={e => {
+                      e.preventDefault();
+                      context.search(this.state.term);
+                    }}
+                  >
                     Search
                   </button>
                 </form>

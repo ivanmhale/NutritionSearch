@@ -66,9 +66,10 @@ body {
   font-family: arial, sans-serif;
   border-collapse: collapse;
   width: 100%; }
-  .results table tr:hover:not(:first-child) {
-    cursor: pointer;
-    background-color: yellow; }
+
+.results tbody tr:hover:not(:first-child) {
+  cursor: pointer;
+  background-color: yellow; }
 
 .results td,
 .results th {
@@ -105,3 +106,6 @@ body {
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: 0.5rem 0.5rem 1rem 0.1rem rgba(0, 0, 0, 0.5); }
+    .modal .content table {
+      margin: auto;
+      width: 100%; }
