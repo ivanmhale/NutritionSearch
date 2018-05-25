@@ -1,12 +1,13 @@
 const request = require("request");
+let keys;
 
 if (process.env.NODE_ENV === "production") {
-  const keys = {
+  keys = {
     appId: process.env.appId,
     appKey: process.env.appKey
   };
 } else {
-  const keys = require("../keys");
+  keys = require("../keys");
 }
 
 module.exports = app => {
