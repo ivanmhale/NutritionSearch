@@ -67,7 +67,11 @@ body {
   border-collapse: collapse;
   width: 100%; }
 
-.results tbody tr:hover:not(:first-child) {
+.results .thead th:hover {
+  background-color: #eee;
+  cursor: pointer; }
+
+.results #tbody tr:hover {
   cursor: pointer;
   background-color: yellow; }
 

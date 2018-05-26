@@ -7,7 +7,9 @@
     "rapidapi-connect": "0.0.6",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4"
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.4",
+    "redux": "^4.0.0"
   },
   "scripts": {
     "watch:sass": "node-sass src/sass.scss src/index.css -w",

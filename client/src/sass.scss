@@ -80,7 +80,12 @@ body {
     width: 100%;
   }
 
-  tbody tr:hover:not(:first-child){
+  .thead th:hover{
+    background-color: #eee;
+    cursor: pointer;
+  }
+
+  #tbody tr:hover{
     cursor: pointer;
     background-color: yellow
   }
