@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import ResultsContext from "../config/Context";
 import { connect } from "react-redux";
-import { sort } from "../actions";
+import { sort, isLoading } from "../actions";
 
 class Results extends Component {
   state = {
@@ -61,18 +61,18 @@ class Results extends Component {
         property === "nf_calories" &&
         this.state.sorted === "nf_calories"
       ) {
-        data.sort((a,b)=>{
+        data.sort((a, b) => {
           console.log(a.fields.nf_calories);
-          return b.fields.nf_calories - a.fields.nf_calories
-        })
+          return b.fields.nf_calories - a.fields.nf_calories;
+        });
       } else if (
         property === "nf_calories" &&
         this.state.sorted !== "nf_calories"
       ) {
-        data.sort((a,b)=>{
+        data.sort((a, b) => {
           console.log(a.fields.nf_calories);
-          return a.fields.nf_calories - b.fields.nf_calories
-        })
+          return a.fields.nf_calories - b.fields.nf_calories;
+        });
       } else {
         data.sort(compare);
       }
@@ -84,7 +84,13 @@ class Results extends Component {
           {context => {
             const field = hit.fields;
             return (
-              <tr onClick={() => context.select(hit.id)} key={hit.id}>
+              <tr
+                onClick={() => {
+                  context.select(hit.id);
+                  this.props.isLoading(false);
+                }}
+                key={hit.id}
+              >
                 <td>{field.item_name}</td>
                 <td>{field.brand_name}</td>
                 <td>{field.nf_calories}</td>
@@ -149,7 +155,8 @@ class Results extends Component {
 
 const mapDispatchToProps = dispatch => {
   return {
-    sort: method => dispatch(sort(method))
+    sort: method => dispatch(sort(method)),
+    isLoading: bool => dispatch(isLoading(true))
   };
 };
 

@@ -3,7 +3,6 @@ import Main from "./components/Main";
 import Modal from './components/Modal';
 import ResultsProvider from "./config/Provider";
 
-
 class App extends Component {
   state={
     modal: false
