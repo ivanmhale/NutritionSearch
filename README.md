@@ -5,3 +5,7 @@ This app was Ivan Hale's introduction to the React Context API. Redux was eventu
 1. React front end
 2. Express server
 3. Nutritionix API
+
+[Link to app](https://poweredbynutritionix.herokuapp.com/)
+
+[Link to Nutritionix API](https://www.nutritionix.com/business/api)
